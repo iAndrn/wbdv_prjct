@@ -1,0 +1,208 @@
+
+.img1
+{
+  width: 350px;
+  height: 400;
+}
+
+ .table{
+
+color: black;
+
+ }
+  .poc{
+   border: solid;
+ }
+}
+
+
+
+.souvenir{
+  background-color: black; 
+ 
+  margin-left: 150px;
+
+
+}
+
+.navcontent{
+  overflow: hidden;
+  position:   absolute;
+  background-color:   #222;
+
+}
+
+.navcontent .navsub{
+  color:  #fff;
+  text-decoration: none;   
+}
+
+.navcontent a:hover{
+  text-decoration: underline;   
+}
+
+.navsub ul li a {
+  display:  inline-block;
+}
+.souvenir:focus{
+  background-color:   #444;
+
+}
+.souvenir:focus ~ .navcontent{
+  max-height:   400px;
+}
+
+.packageimg{
+  height: 100px;
+  position: absolute;
+  margin-left: 550px;
+  margin-top: -200px;
+  width: 550px;
+  height: 200px; 
+}
+.p{
+  font-family: Courier;
+  word-spacing: 5px;
+  
+
+}   
+body  {
+  background-color: white;
+
+
+}
+
+
+.social{
+  display: flex;
+  position: absolute;
+  transform: translate(-50%,-50%);
+}
+
+.mainrow{
+  list-style-type: none;
+  background-color:#484848;
+  border-color:   blue;
+
+}
+.white {
+  color: white;
+  background-color:#484848;
+}
+.top{
+  list-style-type:  none;
+  
+}
+.top2{
+  display:  inline-block; 
+  list-style-type:  none;
+  position: absolute;
+  margin-left: -200px;
+  margin-top: 20px; 
+  font-family: Courier;
+  font-size: 30px;
+}
+.nav-item::after
+{
+    content:'';
+    display:block;
+    width:0px;
+    height:4px;
+    background:lightblue;
+    transition: 0.5s;
+    margin-top:-12px;
+}
+
+.dsb::after 
+{
+    content:'';
+    display:block;
+    width:0px;
+    height:4px;
+    background:red;
+    transition: 0.5s;
+   
+}
+
+.nav-item:hover::after
+{
+	width:100%;
+}
+
+
+.nav-link:hover{
+	color: black;
+}
+
+.buttons{
+  background-color: #484848 ;
+  height: 100px;
+  width: 50%;
+  font-size: 20px;
+  color: white;
+  font-family: courier;
+transition: .2s;
+
+}
+.buttons:hover{
+background-color:  black;
+font-size: 40px;
+}
+
+
+
+.weh{
+  color: #cccccc;
+
+}
+
+
+
+.package{
+  height: 100px;
+  width: 100px;
+}
+
+.nav-link
+{
+	padding:13px 15px;
+	transition:0.3s;
+	color: blue;
+	font-family: Courier;
+	font-size: 20px; 
+  letter-spacing: 8px;
+}
+
+.navbar-nav .nav-link {
+    
+    color:#000;
+    font-weight:bold;
+    font-size:18px;
+}
+
+.navbar-nav .active > .nav-link{
+  
+    width:100%;
+    height:51px;
+    
+  border-bottom: .25rem solid transparent;
+  border-bottom-color: #ed4137;
+   
+}
+
+.shado {
+  margin-left:  0px;
+  font-family: 'Courier';
+    letter-spacing:   -10px;
+  color: #f0f0f0;
+
+  text-shadow:
+                3px 3px #181818,
+                3px 3px #585858,
+                4px 4px #585858,
+                5px 5px #686868,
+                6px 6px #787878;
+}
+
+
+//sidebar about

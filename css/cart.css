@@ -1,0 +1,47 @@
+body{
+	background-color: WHITE;
+	padding-top: 0px !important;
+}
+
+.list-group-item{
+	color: white;
+	background-color: #6699ff;
+}
+
+
+
+.nav-item{
+	color: white;
+	border: 1px;
+	border-color: white;
+}
+
+ .avail{
+	/*position: absolute !important;*/
+	/*margin-top: -110px !important;*/
+	/*margin-left: 60% !important;*/
+	height: 100px !important;
+	
+	background-color: black !important; 
+
+}
+
+ .avail:hover{
+	background-color:  green !important;
+font-size: 40px !important;
+}
+
+input{
+  background-color: #484848 ;
+  height: 100px;
+  width: 50%;
+  font-size: 20px;
+  color: white;
+  font-family: courier;
+transition: .2s;
+
+}
+input:hover{
+background-color:  black;
+font-size: 40px;
+}

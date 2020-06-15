@@ -1,0 +1,74 @@
+.nav-item::after
+{
+    content:'';
+    display:block;
+    width:0px;
+    height:4px;
+    background:orange;
+    transition: 0.5s;
+    margin-top:-12px;
+}
+
+.dsb::after 
+{
+    content:'';
+    display:block;
+    width:0px;
+    height:4px;
+    background:red;
+    transition: 0.5s;
+    margin-top:-12px;
+}
+
+.nav-item:hover::after
+{
+	width:100%;
+}
+
+.nav-link:hover{
+	color: black;
+}
+
+.nav-link
+{
+	padding:13px 15px;
+	transition:0.2s;
+	color: orange;
+	font-family: Verdana;
+	font-size: 20px; 
+}
+
+.navbar-nav .nav-link {
+    
+    color:#000;
+    font-weight:bold;
+    font-size:18px;
+}
+
+.navbar-nav .active > .nav-link{
+  
+    width:100%;
+    height:51px;
+    
+  border-bottom: .25rem solid transparent;
+  border-bottom-color: #ed4137;
+   
+}
+
+.shado {
+  font-family: 'ThirstyRoughBlack';
+
+  color: black;
+  text-shadow:
+                3px 3px #fe4902,
+                3px 3px #fe4902,
+                4px 4px #fe4902,
+                5px 5px #fe4902,
+                6px 6px #fe4902;
+}
+
+
+@font-face {
+  font-family: 'ThirstyRoughBlack';
+  src: url('fonts/ThirstyRoughBlack.otf') format('opentype');
+}

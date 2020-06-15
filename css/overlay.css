@@ -1,0 +1,84 @@
+.packagebut{
+  height: 100px;
+}
+.overlay-2 {
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #8cbcb8;
+}
+
+.overlay {
+  z-index: 2;
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background: #7da148;
+}
+
+.overlay p {
+  font-size: 100px;
+}
+
+.screen {
+  color: #b3342f;
+  font-family: "Courier";
+  position: absolute;
+  -webkit-background-clip: text;
+  top: 30%;
+  left: 10%;
+  /* transform: translate(0%, -10%); */
+}
+
+.myBtn {
+  font-family: Verdana;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+button {
+  display: block;
+  padding: 24px 48px;
+  font-family: Verdana;
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 10px;
+  color: #fff;
+  border: 2px solid;
+  text-transform: uppercase;
+  outline: none;
+  overflow: hidden;
+  background: none;
+  z-index: 1;
+  cursor: crosshair;
+  transition: 0.8s ease-out;
+}
+
+.myBtn:hover {
+  color: #101010;
+  cursor: crosshair;
+}
+
+.myBtn:before {
+  content: "";
+  position: absolute;
+  background: #fff;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 100%;
+  z-index: -1;
+  transition: top 0.8s ease-out;
+}
+
+.myBtn:hover:before {
+  top: 0;
+}
+
+@font-face {
+  font-family: "ThirstyRoughBlack";
+  src: url("fonts/ThirstyRoughBlack.otf") format("opentype");
+}
